@@ -5,7 +5,7 @@ getButton = document.querySelector("form button");
 
 
 for (let i = 0; i < dropList.length; i++) {
-  // Selecting USD & NPR as default currencies
+  // Selecting USD & IQD as default currencies
   for (currency_code in country_code) {
     let selected;
     if (i == 0) {
